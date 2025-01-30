@@ -23,7 +23,7 @@ void PrintNum(double num)
 // 템플릿 클래스
 // : 클래스(설계도)를 찍어내는 주조틀
 // 
-template<typename T = float> // 템플릿 클래스의 기본인자 설정 (템블릿 클래스를 나타내는 <>는 생략할 수 없다)
+template<typename T = float> // 템플릿 클래스의 기본인자 설정 (템플릿 클래스를 나타내는 <>는 생략할 수 없다)
 class Vector
 {
 public:
@@ -84,7 +84,7 @@ public:
 int main()
 {
 	int aInt = 1;
-	PrintNum(aInt); // =>
+	PrintNum(aInt);
 
 	double aDouble = 1.1;
 	PrintNum<double>(aDouble);

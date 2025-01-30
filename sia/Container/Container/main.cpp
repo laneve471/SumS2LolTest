@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	List<Int> myList;
+	List<int> myList;
 
 	myList.push_back(1);
 	myList.push_back(2);

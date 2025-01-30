@@ -36,7 +36,7 @@
     <ClCompile Include="6. Hiding.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Casting.cpp">
+    <ClCompile Include="7. Casting.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
